@@ -35,33 +35,7 @@ int main()
 
 ## build
 
-Create a build directory.
-```
-mkdir build
-```
-Run cmake command inside build directory.
-```
-cd build
-cmake ..
-```
-Run make to build lunasvg.
-
-```
-make -j 2
-```
-To install lunasvg library.
-
-```
-make install
-```
-
-## demo
-While building lunasvg example it generates a simple SVG to PNG converter which can be used to convert SVG file to PNG file.
-
-Run Demo.
-```
-svg2png [filename] [resolution] [bgColor]
-```
+Just run premake5 on main directory
 
 ## support
 If you like the work lunasvg is doing please consider a small donation:
